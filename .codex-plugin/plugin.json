@@ -1,0 +1,38 @@
+{
+  "name": "joai-loyalty",
+  "version": "0.3.0",
+  "description": "Connect Loyalty to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/loyalty",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "loyalty"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Loyalty by JoAi",
+    "shortDescription": "Connect Loyalty to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "Stamp-based loyalty programs for local service businesses.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/loyalty",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the Loyalty tools available in this app.",
+      "Explain what setup or authentication Loyalty needs before I run an action.",
+      "Use Loyalty to help me with the task I describe next."
+    ]
+  }
+}
